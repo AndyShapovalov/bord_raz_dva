@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" src="http://scoreboard.mobidel.ru/jquery.js"></script>
+    <script type="text/javascript" src="http://scoreboard.mobidel.ru/js-defaults.php"></script>
+    <script type="text/javascript" src="http://scoreboard.mobidel.ru/orders.js"></script>
+    <link rel="stylesheet" href="http://scoreboard.mobidel.ru/mainStyles.css">
+    
+    <script>
+    $(document).ready(function() {
+    makeOrders("workDiv","readyDiv","1624832828197318834","http://scoreboard.mobidel.ru","0");
+    });
+    </script>
+    
+    <div style='width: 100%; position: relative;'>
+    <div>
+    <div style=' width: 50%; float: left; height: 60px; width: 50%; float: left; height: 60px; font-size: 50px; line-height: 60px; background: #000000; color: #ffffff; font-weight: bold;'> Готовится </div>
+    <div style='width: 50%; float: left; height: 60px; width: 50%; float: left; height: 60px; font-size: 50px; line-height: 60px; background: #93c756; color: #ffffff; font-weight: bold;'> Готовы </div>
+    </div>
+    <div style='width: 50%; float: left; height: 600px; overflow: hidden;' id='workDiv'></div>
+    <div style='width: 50%; height: 600px; overflow: hidden;' id='readyDiv'></div>
+    </div> 
+</body>
+</html>

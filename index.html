@@ -8,50 +8,24 @@
 </head>
 <body>
     <script type="text/javascript" src="http://89.248.201.147/jquery.js"></script>
-<script type="text/javascript" src="http://89.248.201.147/scoreboard/js-defaults.php"></script>
-<script type="text/javascript" src="http://89.248.201.147/scoreboard/orders.js"></script>
-<link rel="stylesheet" href="http://89.248.201.147/scoreboard/mainStyles.css">
-
-
-<script>
-$(document).ready(function() {
-  makeOrders("workDiv","readyDiv","832199375106417775","http://89.248.201.147","0");
-});
-</script>
-
-<div style='width: 100%; top: -120px;
-    position: relative;'>
- <div>
-  <div style='
-    width: 50%; 
-    float: left; 
-    height: 60px;     
-    width: 50%;
-    float: left;
-    height: 60px;
-    font-size: 50px;
-    line-height: 60px;
-    background: #000000;
-    color: #ffffff;
-    font-weight: bold;'>
-    Готовится
-  </div>
-  <div style='width: 50%; 
-    float: left; 
-    height: 60px;     
-    width: 50%;
-    float: left;
-    height: 60px;
-    font-size: 50px;
-    line-height: 60px;
-    background: #93c756;
-    color: #ffffff;
-    font-weight: bold;'>
-    Готовы
-  </div>
- </div>
- <div style='width: 50%; float: left; height: 600px; overflow: hidden;' id='workDiv'></div>
- <div style='width: 50%; height: 600px; overflow: hidden;' id='readyDiv'></div>
-</div>
+    <script type="text/javascript" src="http://89.248.201.147/scoreboard/js-defaults.php"></script>
+    <script type="text/javascript" src="http://89.248.201.147/scoreboard/orders.js"></script>
+    <link rel="stylesheet" href="http://89.248.201.147/scoreboard/mainStyles.css">
+    
+    
+    <script>
+    $(document).ready(function() {
+      makeOrders("workDiv","readyDiv","832199375106417775","http://89.248.201.147","0");
+    });
+    </script>
+    
+    <div style='width: 100%; position: relative;'>
+    <div>
+    <div style=' width: 50%; float: left; height: 60px; width: 50%; float: left; height: 60px; font-size: 50px; line-height: 60px; background: #ff0000; color: #ffffff; font-weight: bold;'> Готовится </div>
+    <div style='width: 50%; float: left; height: 60px; width: 50%; float: left; height: 60px; font-size: 50px; line-height: 60px; background: #93c756; color: #ffffff; font-weight: bold;'> Готовы </div>
+    </div>
+    <div style='width: 50%; float: left; height: 600px; overflow: hidden;' id='workDiv'></div>
+    <div style='width: 50%; height: 600px; overflow: hidden;' id='readyDiv'></div>
+    </div>
 </body>
 </html>
